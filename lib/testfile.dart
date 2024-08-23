@@ -14,6 +14,10 @@ void main() {
   String surname = "Jarvela";
   print("Hello $firstName $surname");
 
+  // use other string declaration of new string
+  String newStr = "$firstName hi there!";
+  print(newStr);
+
   // dart data types:
   String address = "Home";
   int age = 12;
@@ -29,7 +33,18 @@ void main() {
   //to print num with rounding to '2' decimal places
   print(smallNum.toStringAsFixed(2)); // output 1432.41
 
-  
+  // multiline strings, can be declared with double or single quotes
+  String multiLine = """
+  Hi there!
+  How are you going?
+  Cheers.
+  """;
+  print(multiLine);
 
+  // raw string will not use special char or variables inside its sentence
+  String rawStr = r"special \n characters won't work here \t $smallNum";
+  print(rawStr);
+
+  
 }
 
