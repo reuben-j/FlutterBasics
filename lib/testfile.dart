@@ -74,5 +74,24 @@ void main() {
   for(int i = 0; i < 3; i++) {
     print(myList[i]);
   }
+
+  // sets - unordered collection with no duplicates
+  Set<int>myNums = {2, 34, 53, 1234, 5314};
+    print(myNums);
+
+  // maps as normal
+  Map<String, int>myMap = {
+    "Reuben" : 24,
+    "Abi" : 23,
+    "Marcus" : 18
+  };
+  print(myMap['Reuben']);
+  print(myMap);
+
+// runes functions will return ascii values of chars
+  String newVal = "ABC";
+  print(newVal.runes);
+
+  
 }
 
