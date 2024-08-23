@@ -25,5 +25,11 @@ void main() {
 
   print("$address $age $bigNUm $newNum $iAmCool $anyVar");
 
+  var smallNum = 1432.4123;
+  //to print num with rounding to '2' decimal places
+  print(smallNum.toStringAsFixed(2)); // output 1432.41
+
+  
+
 }
 
