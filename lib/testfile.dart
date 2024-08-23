@@ -92,6 +92,8 @@ void main() {
   String newVal = "ABC";
   print(newVal.runes);
 
-  
+  // comments with two backslashes
+  /// documents with three
+
 }
 
