@@ -55,7 +55,24 @@ void main() {
   double newDub = double.parse(dubValue);
   print(newDub); // 13.32
 
-  
+  // int to string and also runtimeType 
+  int one = 1;
+  print("this var of value $one is type ${one.runtimeType}");
+  String otherOne = one.toString();
+  print("this var of $otherOne is now ${otherOne.runtimeType}");
 
+  // double to int
+  double newBigNum = 12.12;
+  int newInt = newBigNum.toInt();
+  print(newInt); // output 12 as is now int
+
+  bool isCool = true;
+  print("is Reuben cool? $isCool, what that var being type ${isCool.runtimeType}");
+
+  // list declaration - same as c++ array
+  List<String>myList = ["Reuben", "Abi", "Marcus"];
+  for(int i = 0; i < 3; i++) {
+    print(myList[i]);
+  }
 }
 
