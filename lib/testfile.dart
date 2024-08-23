@@ -45,6 +45,17 @@ void main() {
   String rawStr = r"special \n characters won't work here \t $smallNum";
   print(rawStr);
 
+  // type cast using parse
+  String intToString = "123";
+  int intFromStr = int.parse(intToString);
+  print(intFromStr);
+
+  // string to double
+  String dubValue = "13.32";
+  double newDub = double.parse(dubValue);
+  print(newDub); // 13.32
+
   
+
 }
 
