@@ -123,6 +123,15 @@ void main() {
   int? number = int.parse(stdin.readLineSync()!);
   print("The entered number is ${number}");
 
-  
+  print("Enter a floating number:");
+  double numberIn = double.parse(stdin.readLineSync()!);
+  print("The entered num is $numberIn");
+
+  // string properties
+  String myStr = "Hiya";
+  print(myStr.codeUnits); // [72, 105, 121, 97]
+  print(myStr.isEmpty); // false
+  print(myStr.isNotEmpty); // true
+  print(myStr.length); // 4
 }
 
