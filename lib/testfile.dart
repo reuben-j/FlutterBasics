@@ -144,11 +144,22 @@ void main() {
   print(myStr.compareTo(myStr)); // 0
 
   //string.replaceAll(substring)
-  String bigText = """Hi there I hope you're well
-  and are having a good day!""";
+  String bigText = "Hi there I hope you're well and are having a Hi day!";
+  // find substring to replace with new substring
   String newBigText = bigText.replaceAll("Hi", "Bye");
   print(newBigText);
 
-  
+  // split string 
+  String myNames = "Reuben, Abi, Marcus";
+  // split string at determined point
+  List<String>myNameList = myNames.split(",");
+  print(myNameList);  
+
+  // print from index 6 onwards
+  print(myNames.substring(7));
+
+  // 
+  String input = "Hello"; 
+  print("$input Reverse is ${input.split('').reversed.join()}");
 }
 
