@@ -95,10 +95,17 @@ void main() {
   // comments with two backslashes
   /// documents with three
   
-  // 
+  // reverse sign from pos to neg or neg to pos
   int numNum = -1;
   int myNewNum = -numNum;
   print(myNewNum);
+
+  // operators different to other languages
+  int num101 = 10;
+  int num102 = 3;
+  print(num101/num102); // output 3.333-> returns floating point decimal even tho integer input
+  // to receive integer result without floating point use ~/
+  print(num101~/num102); // output 3
 
 }
 
