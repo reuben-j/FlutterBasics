@@ -143,7 +143,12 @@ void main() {
   // 0 when equal and 1 when first string longer than second
   print(myStr.compareTo(myStr)); // 0
 
-  // 
+  //string.replaceAll(substring)
+  String bigText = """Hi there I hope you're well
+  and are having a good day!""";
+  String newBigText = bigText.replaceAll("Hi", "Bye");
+  print(newBigText);
+
   
 }
 
