@@ -1,3 +1,5 @@
+// enum declaration outside of main func 
+ enum myEnum {newish, old, raggy}
 void main() {
 
   // if else statement
@@ -34,4 +36,20 @@ void main() {
     default:
       print("Not equal to anything above");
   }
+  // declare new variable from Enum
+  const newVar = myEnum.old;
+
+  switch(newVar) {
+    case(myEnum.newish):
+      print("kinda new");
+      break;
+    case(myEnum.old):
+      print("Pretty old");
+      break;
+    case(myEnum.raggy):
+      print("Trashed");
+      break;
+   }
+
+   // 
 }
