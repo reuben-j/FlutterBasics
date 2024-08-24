@@ -107,5 +107,7 @@ void main() {
   // to receive integer result without floating point use ~/
   print(num101~/num102); // output 3
 
+  // type test operator
+
 }
 
