@@ -1,5 +1,7 @@
 // https://dart-tutorial.com/introduction-and-basics/basic-dart-program/
 
+import 'dart:io';
+
 void main() {
   print("Hello world");
   // variables can be declared with the specific int or string type or var and dart will figure it out
@@ -109,8 +111,18 @@ void main() {
 
   // type test operator
   // is and !is will return true or false is correct type is suggested
- print(num101 is !int); // return false because is int would be true
+  print(num101 is !int); // return false because is int would be true
 
- 
+  // user string input
+  print("Enter name: ");
+  String? newName  = stdin.readLineSync();
+  print("Hi there $newName");
+
+  // user int input
+  print("Enter number:");
+  int? number = int.parse(stdin.readLineSync()!);
+  print("The entered number is ${number}");
+
+  
 }
 
