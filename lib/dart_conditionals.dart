@@ -11,6 +11,9 @@ void main() {
     print("age is above 23");
   }
 
-  var time = 22;
-  assert(time!=22);
+  bool time = false;
+  assert(time == true, "Nah");
+
+  // dart --enable-asserts dart_conditionals.dart
+  // the above command will allow you to run file in assert mode then catch errors
 }
