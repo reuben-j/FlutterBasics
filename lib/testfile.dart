@@ -108,6 +108,9 @@ void main() {
   print(num101~/num102); // output 3
 
   // type test operator
+  // is and !is will return true or false is correct type is suggested
+ print(num101 is !int); // return false because is int would be true
 
+ 
 }
 
