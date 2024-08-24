@@ -94,6 +94,11 @@ void main() {
 
   // comments with two backslashes
   /// documents with three
+  
+  // 
+  int numNum = -1;
+  int myNewNum = -numNum;
+  print(myNewNum);
 
 }
 
