@@ -133,5 +133,17 @@ void main() {
   print(myStr.isEmpty); // false
   print(myStr.isNotEmpty); // true
   print(myStr.length); // 4
+
+  // string methods
+  print(myStr.toLowerCase()); // hiya
+  print(myStr.toUpperCase()); // HIYA
+  print(myStr.trim()); // Hiya -> removes white space
+  String ahYes = "Hiya";
+  // string.compareTo(otherStr) will return -1 when first string smaller than second, 
+  // 0 when equal and 1 when first string longer than second
+  print(myStr.compareTo(myStr)); // 0
+
+  // 
+  
 }
 
