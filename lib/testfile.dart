@@ -158,8 +158,12 @@ void main() {
   // print from index 6 onwards
   print(myNames.substring(7));
 
-  // 
+  // string.reversed and string.join
   String input = "Hello"; 
-  print("$input Reverse is ${input.split('').reversed.join()}");
+  print("$input Reverse is ${input.split('').reversed.join()}"); // output-> Hello Reverse is olleH
+
+  // capitalize first letter of string
+  String strFirstToUpper = "reuben";
+  print("First letter of $strFirstToUpper is now capitalised -> ${strFirstToUpper[0].toUpperCase()}${strFirstToUpper.substring(1)}");
 }
 
