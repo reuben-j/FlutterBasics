@@ -39,6 +39,7 @@ void main() {
   // declare new variable from Enum
   const newVar = myEnum.old;
 
+  // use enum in switch statement
   switch(newVar) {
     case(myEnum.newish):
       print("kinda new");
@@ -51,5 +52,18 @@ void main() {
       break;
    }
 
-   // 
+   // ternary operator
+   int number = 10;
+   //same as c++, shorthand if else statement
+   number >= 12 ? print("Bigger than 11") : print("Smaller than 11");
+
+   // for each loop
+   List<String>listNames = ["Lambo", "Rarri", "Porsche"];
+   listNames.forEach((listNames)=>print(listNames));
+
+   for(String x in listNames) {
+    print(x);
+   }
+
+   
 }
