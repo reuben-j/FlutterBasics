@@ -65,5 +65,6 @@ void main() {
     print(x);
    }
 
-   
+  // using asMap() function creates the array index as the map index and the array value as map value. 
+   listNames.asMap().forEach((index, value)=>print("$index -> $value"));
 }
