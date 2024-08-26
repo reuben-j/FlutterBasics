@@ -67,4 +67,14 @@ void main() {
 
   // using asMap() function creates the array index as the map index and the array value as map value. 
    listNames.asMap().forEach((index, value)=>print("$index -> $value"));
+
+  // from char code will turn ascii back to char
+   String str1 = "Football";
+   for(var x in str1.runes) {
+    print("${String.fromCharCode(x)} is $x");
+   }
+
+   var char1 = 'A';
+   String char2 = char1.runes;
+   print("${String.fromCharCode(char2)}");
 }
