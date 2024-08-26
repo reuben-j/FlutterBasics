@@ -74,7 +74,5 @@ void main() {
     print("${String.fromCharCode(x)} is $x");
    }
 
-   var char1 = 'A';
-   String char2 = char1.runes;
-   print("${String.fromCharCode(char2)}");
+  
 }
